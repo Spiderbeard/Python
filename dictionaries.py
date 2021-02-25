@@ -12,6 +12,10 @@ count = dict()
 names =["tim","mike","tim","bob","mike","bob","tim"]
 for name in names:
     count[name] = count.get(name,0) + 1
-print(count)            
-
+print(count)
+print(count.keys())
+print(count.values())
+print(count.items())            
+for a,b in count.items():
+    print(a,b)
 

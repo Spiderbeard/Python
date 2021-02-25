@@ -18,3 +18,15 @@ print(sum(total))
 
 print(total)
 
+numlist = list()
+while True:
+    inp = input("Enter a number ")
+    if inp == 'done': break
+    value = float(inp)
+    numlist.append(value)
+av = sum(numlist) / len(numlist)
+print(av)    
+
+
+abc = "woo:noo:boo:choo"
+stuff = abc.split(':')
